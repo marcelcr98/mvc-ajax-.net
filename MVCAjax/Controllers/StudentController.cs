@@ -21,6 +21,8 @@ namespace MvcAjax.Controllers
                          {
                              ID = c.studentID,
                              Address = c.studentAddress,
+                             Code = c.studentCode,
+                             LastName = c.studentLastName,
                              Name = c.studentName
                          }
                          ).ToList();

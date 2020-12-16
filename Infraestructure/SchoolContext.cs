@@ -17,4 +17,4 @@ namespace Infraestructure
         public DbSet<Student> Students { get; set; }
 
     }
-}
+} 
